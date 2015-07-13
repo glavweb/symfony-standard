@@ -16,7 +16,26 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+
+            /* Sonata + FOS + Knp */
+            new Sonata\CoreBundle\SonataCoreBundle(),
+            new Sonata\BlockBundle\SonataBlockBundle(),
+            new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
+            new Sonata\AdminBundle\SonataAdminBundle(),
+            new Sonata\IntlBundle\SonataIntlBundle(),
+            new Sonata\UserBundle\SonataUserBundle('FOSUserBundle'),
+            new FOS\UserBundle\FOSUserBundle(),
+            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+
+            /* Other bundles */
+            new Vich\UploaderBundle\VichUploaderBundle(),
+            new Braincrafted\Bundle\BootstrapBundle\BraincraftedBootstrapBundle(),
+            new Liip\ImagineBundle\LiipImagineBundle(),
+            new Glavweb\ContentBlockBundle\GlavwebContentBlockBundle(),
+
+            /* Application */
             new AppBundle\AppBundle(),
+            new UserBundle\UserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

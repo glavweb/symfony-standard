@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="SonataAdminBundle.en.xliff" >
+        <body>
+            <trans-unit id="Dashboard">
+                <source>Dashboard</source>
+                <target>Панель администрирования</target>
+            </trans-unit>
+            <trans-unit id="btn_next">
+                <source>btn_next</source>
+                <target>Далее</target>
+            </trans-unit>
+            <trans-unit id="message_form_group_empty">
+                <source>message_form_group_empty</source>
+                <target>Пусто</target>
+            </trans-unit>
+            <trans-unit id="user_block_logout">
+                <source>user_block_logout</source>
+                <target>Выйти</target>
+            </trans-unit>
+            <trans-unit id="label_group_admin">
+                <source>label_group_admin</source>
+                <target>Администрирование</target>
+            </trans-unit>
+            <trans-unit id="link_filters">
+                <source>link_filters</source>
+                <target>Фильтр</target>
+            </trans-unit>
+            <trans-unit id="btn_filter">
+                <source>btn_filter</source>
+                <target></target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

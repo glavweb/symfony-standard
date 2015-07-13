@@ -1,5 +1,5 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "glavweb/framework-standard-edition",
     "license": "MIT",
     "type": "project",
     "description": "The \"Symfony Standard Edition\" distribution",
@@ -17,7 +17,18 @@
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~4.0",
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
-        "incenteev/composer-parameter-handler": "~2.0"
+        "incenteev/composer-parameter-handler": "~2.0",
+        "sonata-project/admin-bundle": "~2.3",
+        "sonata-project/doctrine-orm-admin-bundle": "~2.3",
+        "sonata-project/core-bundle": "~2.3",
+        "sonata-project/intl-bundle": "~2.2",
+        "sonata-project/datagrid-bundle": "dev-master",
+        "sonata-project/user-bundle": "~2.2",
+        "knplabs/knp-paginator-bundle": "~2.4",
+        "vich/uploader-bundle": "0.14.*",
+        "braincrafted/bootstrap-bundle": "~2.0",
+        "liip/imagine-bundle": "~1.3",
+        "glavweb/content-block-bundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

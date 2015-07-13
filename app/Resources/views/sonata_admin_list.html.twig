@@ -1,0 +1,41 @@
+{#
+
+This file is part of the Sonata package.
+
+(c) Thomas Rabaix <thomas.rabaix@sonata-project.org>
+
+For the full copyright and license information, please view the LICENSE
+file that was distributed with this source code.
+
+#}
+
+{% extends 'SonataAdminBundle:CRUD:base_list.html.twig' %}
+
+{% block sonata_page_content_nav %}
+    {% if _tab_menu is not empty or _actions is not empty %}
+        <nav class="navbar navbar-default" role="navigation">
+            {% block tab_menu_navbar_header %}
+                {% if _navbar_title is not empty %}
+                    <div class="navbar-header">
+                        <span class="navbar-brand">{{ _navbar_title|raw }}</span>
+                    </div>
+                {% endif %}
+            {% endblock %}
+            <div class="container-fluid">
+                <div class="navbar-left">
+                    {% if _tab_menu is not empty %}
+                        {{ _tab_menu|raw }}
+                    {% endif %}
+                </div>
+
+                {% if admin.hasRoute('create') and admin.isGranted('CREATE')%}
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown sonata-actions">
+                            {% include 'SonataAdminBundle:Core:create_button.html.twig' %}
+                        </li>
+                    </ul>
+                {% endif %}
+            </div>
+        </nav>
+    {% endif %}
+{% endblock sonata_page_content_nav %}
