@@ -32,6 +32,7 @@ class AppKernel extends Kernel
             new Braincrafted\Bundle\BootstrapBundle\BraincraftedBootstrapBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
             new Glavweb\ContentBlockBundle\GlavwebContentBlockBundle(),
+            new Glavweb\CoreBundle\GlavwebCoreBundle(),
 
             /* Application */
             new AppBundle\AppBundle(),
