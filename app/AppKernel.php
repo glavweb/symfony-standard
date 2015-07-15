@@ -31,6 +31,7 @@ class AppKernel extends Kernel
             new Vich\UploaderBundle\VichUploaderBundle(),
             new Braincrafted\Bundle\BootstrapBundle\BraincraftedBootstrapBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
+            new Fresh\DoctrineEnumBundle\FreshDoctrineEnumBundle(),
             new Glavweb\ContentBlockBundle\GlavwebContentBlockBundle(),
             new Glavweb\CoreBundle\GlavwebCoreBundle(),
 

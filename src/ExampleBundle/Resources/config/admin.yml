@@ -1,0 +1,8 @@
+services:
+    entity:
+        class: ExampleBundle\Admin\EntityAdmin
+        arguments: [~, ExampleBundle\Entity\Entity, SonataAdminBundle:CRUD]
+        tags:
+            - {name: sonata.admin, manager_type: orm, group: admin, label: "dashboard.label_entity", label_translator_strategy: "sonata.admin.label.strategy.underscore"}
+        calls:
+            - [ setTranslationDomain, ["entity"]]

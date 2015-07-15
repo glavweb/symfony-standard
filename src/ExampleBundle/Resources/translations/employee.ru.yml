@@ -1,0 +1,34 @@
+filter:
+    label_id:        ID
+    label_firstname: Имя
+    label_lastname:  Фамилия
+    label_post:      Должность
+    label_works:     Работы
+
+list:
+    label_id:        ID
+    label__action:   Действия
+    label_firstname: Имя
+    label_lastname:  Фамилия
+    label_post:      Должность
+    label_works:     Работы
+
+form:
+    label_id:        ID
+    label_firstname: Имя
+    label_lastname:  Фамилия
+    label_post:      Должность
+    label_works:     Работы
+
+show:
+    label_id:        ID
+    label_firstname: Имя
+    label_lastname:  Фамилия
+    label_post:      Должность
+    label_works:     Работы
+
+dashboard:
+    label_employee: Специалисты
+
+breadcrumb:
+    link_employee_list: Список специалистов

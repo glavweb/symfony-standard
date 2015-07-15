@@ -28,6 +28,7 @@
         "vich/uploader-bundle": "0.14.*",
         "braincrafted/bootstrap-bundle": "~2.0",
         "liip/imagine-bundle": "~1.3",
+        "fresh/doctrine-enum-bundle": "v3.2",
         "glavweb/content-block-bundle": "dev-master",
         "glavweb/core-bundle": "dev-master"
     },

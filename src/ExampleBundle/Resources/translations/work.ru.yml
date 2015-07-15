@@ -1,0 +1,70 @@
+filter:
+    label_id: ID
+    label_name: Название работы
+    label_brand_name: Название бренда
+    label_short_name: Краткое название
+    label_banner: Баннер
+    label_brand_logo: Лого баннера
+    label_short_description: Краткое описание работы
+    label_is_display_main_page: Показывать на главной странице
+    label_is_important: Важная
+    label_published_at: Дата публикации
+    label_blocks: Блоки
+    label_employees: Команда проекта
+    label_categories: Категории
+    label_tags: Теги
+
+list:
+    label_id: ID
+    label__action: Действия
+    label_name: Название работы
+    label_brand_name: Название бренда
+    label_short_name: Краткое название
+    label_banner: Баннер
+    label_brand_logo: Лого баннера
+    label_short_description: Краткое описание работы
+    label_is_display_main_page: Показывать на главной странице
+    label_is_important: Важная
+    label_published_at: Дата публикации
+    label_blocks: Блоки
+    label_employees: Команда проекта
+    label_categories: Категории
+    label_tags: Теги
+
+form:
+    label_id: ID
+    label_name: Название работы
+    label_brand_name: Название бренда
+    label_short_name: Краткое название
+    label_banner: Баннер
+    label_brand_logo: Лого баннера
+    label_short_description: Краткое описание работы
+    label_is_display_main_page: Показывать на главной странице
+    label_is_important: Важная
+    label_published_at: Дата публикации
+    label_blocks: Блоки
+    label_employees: Команда проекта
+    label_categories: Категории
+    label_tags: Теги
+
+show:
+    label_id: ID
+    label_name: Название работы
+    label_brand_name: Название бренда
+    label_short_name: Краткое название
+    label_banner: Баннер
+    label_brand_logo: Лого баннера
+    label_short_description: Краткое описание работы
+    label_is_display_main_page: Показывать на главной странице
+    label_is_important: Важная
+    label_published_at: Дата публикации
+    label_blocks: Блоки
+    label_employees: Команда проекта
+    label_categories: Категории
+    label_tags: Теги
+
+dashboard:
+    label_work: Работы
+
+breadcrumb:
+    link_work_list: Список работ

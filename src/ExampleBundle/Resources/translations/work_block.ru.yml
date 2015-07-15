@@ -1,0 +1,13 @@
+form:
+    label_type: Тип
+    label_title: Заголовок
+    label_text: Текст
+    label_anchor: Якорь
+    label_image: Изображение
+    label_work: Работа
+    label_weight: Вес
+
+text: Текст
+banner: Баннер
+image_right: Изображение справа
+image_left: Изображение слева

@@ -1,0 +1,26 @@
+filter:
+    label_id:    ID
+    label_name:  Название
+    label_works: Работы
+
+list:
+    label__action: Действия
+    label_id:      ID
+    label_name:    Название
+    label_works:   Работы
+
+form:
+    label_id:    ID
+    label_name:  Название
+    label_works: Работы
+
+show:
+    label_id:    ID
+    label_name:  Название
+    label_works: Работы
+
+dashboard:
+    label_work_tag: Теги работ
+
+breadcrumb:
+    link_work_tag_list: Список тегов работ
