@@ -10,3 +10,5 @@ sonata_block:
     sonata.user.block.account: # used to display menu option (login option)
     sonata.block.service.text: # used to if you plan to use Sonata user routes
 
+    # Custom blocks
+    block.custom:
