@@ -26,7 +26,6 @@ class UploadableEntity
     private $id;
 
     /**
-    /**
      * @var string
      *
      * @ORM\Column(name="image", type="string", length=255, nullable=true)
@@ -39,10 +38,14 @@ class UploadableEntity
     private $updatedAt = null;
 
     /**
-     * @Vich\UploadableField(mapping="work_block_image", fileNameProperty="image")
+     * @Vich\UploadableField(mapping="entity_image", fileNameProperty="image")
      * @Assert\File(maxSize="4000000")
      * @Assert\Image(
-     *     mimeTypes = {"image/jpeg", "image/jpg", "image/png"}
+     *     minWidth = 880,
+     *     maxWidth = 880,
+     *     minHeight = 400,
+     *     maxHeight = 400,
+     *     mimeTypes = {"image/jpeg", "image/jpg", "image/png", "image/gif"}
      * )
      *
      * @var File
