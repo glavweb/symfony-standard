@@ -5,10 +5,12 @@ namespace ExampleBundle\Admin;
 use ExampleBundle\DBAL\Types\ExampleType;
 use ExampleBundle\Entity\Entity;
 use Sonata\AdminBundle\Admin\Admin;
+use Sonata\AdminBundle\Admin\AdminInterface;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Show\ShowMapper;
+use Knp\Menu\ItemInterface as MenuItemInterface;
 
 class EntityAdmin extends Admin
 {
