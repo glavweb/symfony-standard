@@ -23,28 +23,42 @@ _sonata_admin:
 
 # FOSUserBundle's routing
 fos_user_security:
-  resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
 
 fos_user_profile:
-  resource: "@FOSUserBundle/Resources/config/routing/profile.xml"
-  prefix: /profile
+    resource: "@FOSUserBundle/Resources/config/routing/profile.xml"
+    prefix: /profile
 
 fos_user_register:
-  resource: "@FOSUserBundle/Resources/config/routing/registration.xml"
-  prefix: /register
+    resource: "@FOSUserBundle/Resources/config/routing/registration.xml"
+    prefix: /register
 
 fos_user_resetting:
-  resource: "@FOSUserBundle/Resources/config/routing/resetting.xml"
-  prefix: /resetting
+    resource: "@FOSUserBundle/Resources/config/routing/resetting.xml"
+    prefix: /resetting
 
 fos_user_change_password:
-  resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
-  prefix: /profile
+    resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
+    prefix: /profile
+
+# FOSJsRoutingBundle's routing
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
 
 # SonataUserBundle's routing
 sonata_user:
-  resource: '@SonataUserBundle/Resources/config/routing/admin_security.xml'
-  prefix: /admin
+    resource: '@SonataUserBundle/Resources/config/routing/admin_security.xml'
+    prefix: /admin
+
+# NelmioApiDocBundle's routing
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc
+
+# GlavwebUploaderBundle`s routing
+glavweb_uploader:
+    resource: "@GlavwebUploaderBundle/Resources/config/routing.xml"
+    prefix:   /
 
 # Remove trailing slash
 remove_trailing_slash:
@@ -53,4 +67,3 @@ remove_trailing_slash:
     requirements:
         url: .*/$
     methods: [GET]
-

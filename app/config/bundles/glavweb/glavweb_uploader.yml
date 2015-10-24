@@ -1,0 +1,14 @@
+glavweb_uploader:
+    mappings:
+        entity_images:
+            providers :
+                - glavweb_uploader.provider.image
+            use_orphanage: true
+            upload_directory:     %kernel.root_dir%/../web/uploads/entity_images
+            upload_directory_url: uploads/entity_images
+            max_size: 4194304 # 4Mb
+            allowed_mimetypes: [image/jpeg, image/gif, image/png]
+
+    orphanage:
+        lifetime: 86400
+        directory: %kernel.cache_dir%/uploader/orphanage

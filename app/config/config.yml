@@ -3,27 +3,40 @@ imports:
     - { resource: security.yml }
     - { resource: services.yml }
 
-    # Sonata bundles
+    # KNP bundles
+    - { resource: bundles/knp/knp_paginator.yml }
+    - { resource: bundles/knp/knp_menu.yml }
+
+    # Sonata Admin bundles
     - { resource: bundles/sonata/sonata_admin.yml }
     - { resource: bundles/sonata/sonata_block.yml }
     - { resource: bundles/sonata/sonata_doctrine_orm_admin.yml }
     - { resource: bundles/sonata/sonata_intl.yml }
     - { resource: bundles/sonata/sonata_user.yml }
 
-    # Vich bundles
-    - { resource: bundles/vich/vich_uploader.yml }
+    # FOS bundles
+    - { resource: bundles/fos/fos_user.yml }
+    - { resource: bundles/fos/fos_rest.yml }
+    - { resource: bundles/fos/fos_js_routing.yml }
 
     # Braincrafted bundles
     - { resource: bundles/braincrafted/braincrafted_bootstrap.yml }
 
+   # Vich bundles
+    - { resource: bundles/vich/vich_uploader.yml }
+
     # Liip bundles
     - { resource: bundles/liip/liip_imagine.yml }
 
-    # FOS bundles
-    - { resource: bundles/fos/fos_user.yml }
+    # Nelmio bundles
+    - { resource: bundles/nelmio/nelmio_api_doc.yml }
+    - { resource: bundles/nelmio/nelmio_cors.yml }
 
-    # KNP bundles
-    - { resource: bundles/knp/knp_menu.yml }
+    # JMS Bundles
+    - { resource: bundles/jms/jms_serializer.yml }
+
+    # Glavweb Bundles
+    - { resource: bundles/glavweb/glavweb_uploader.yml }
 
 # Put parameters here that don't need to change on each machine where the app is deployed
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
@@ -61,6 +74,7 @@ twig:
         resources:
             - 'SonataCoreBundle:Form:datepicker.html.twig'
             - 'GlavwebCoreBundle:Form:fields.html.twig'
+            - 'GlavwebUploaderBundle:Form:fields.html.twig'
 
 # Assetic Configuration
 assetic:
